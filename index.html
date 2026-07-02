@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Илья & Анастасия — Мы женимся</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Каллиграфический шрифт для всего текста -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Живые звёзды (генерируются JS) -->
+  <div class="star-field" id="starField"></div>
+
+  <main class="container">
+    <header class="hero">
+      <p class="tagline">МЫ ЖЕНИМСЯ</p>
+      <h1 class="names">Илья & Анастасия</h1>
+      <div class="date-block">
+        <span class="day">30</span>
+        <span class="separator">.</span>
+        <span class="month">08</span>
+        <span class="separator">.</span>
+        <span class="year">2026</span>
+      </div>
+      <p class="subtagline">Мы будем счастливы разделить этот день вместе с вами</p>
+    </header>
+
+    <section class="invitation">
+      <h2>Дорогие родные и друзья!</h2>
+      <p>Приглашаем вас разделить с нами один из самых важных дней в нашей жизни.</p>
+      <p>Будем рады видеть вас на нашей свадьбе!</p>
+      <p>Проведём этот вечер в атмосфере любви, тепла и незабываемых моментов.</p>
+    </section>
+
+    <section class="countdown-section">
+      <h3>До нашей свадьбы осталось</h3>
+      <!-- Горизонтальный таймер -->
+      <div class="countdown">
+        <div class="countdown-item">
+          <span class="value" id="days">00</span>
+          <span class="label">ДНЕЙ</span>
+        </div>
+        <div class="countdown-item">
+          <span class="value" id="hours">00</span>
+          <span class="label">ЧАСОВ</span>
+        </div>
+        <div class="countdown-item">
+          <span class="value" id="minutes">00</span>
+          <span class="label">МИНУТ</span>
+        </div>
+        <div class="countdown-item">
+          <span class="value" id="seconds">00</span>
+          <span class="label">СЕКУНД</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="program">
+      <h3>Программа дня</h3>
+      <!-- Горизонтальная программа -->
+      <div class="program-row">
+        <div class="program-item">
+          <div class="icon">🥂</div>
+          <div class="time">15:30</div>
+          <div class="title">Сбор гостей</div>
+        </div>
+        <div class="program-item">
+          <div class="icon">💍</div>
+          <div class="time">16:00</div>
+          <div class="title">Церемония</div>
+        </div>
+        <div class="program-item">
+          <div class="icon">🍽️</div>
+          <div class="time">17:00</div>
+          <div class="title">Банкет</div>
+        </div>
+        <div class="program-item">
+          <div class="icon">✨</div>
+          <div class="time">23:00</div>
+          <div class="title">Завершение</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="details">
+      <div class="dress-code">
+        <h4>Дресс‑код</h4>
+        <p>Строгий дресс-код для нас не главное, просто будьте нарядны и будьте собой.</p>
+      </div>
+
+      <div class="rsvp">
+        <h4>RSVP</h4>
+        <p>Пожалуйста, подтвердите своё присутствие до 01 августа 2026 года</p>
+        <p>Заполнение займёт всего пару минут</p>
+        <a href="https://forms.yandex.ru/u/6a42a58e84227c4e5842ad5e" target="_blank" class="btn">Подтвердить участие</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Будем ждать с нетерпением! ❤️</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
